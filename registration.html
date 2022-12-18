@@ -1,0 +1,54 @@
+<html>
+    <head>
+
+        <title>Facebook - Signup</title>
+        <meta name="author" content="Ahmed" />
+        <meta charset="UTF-8" />
+        <meta name="description" content="Facebook App">
+        <meta name="keywords" content="Facebook,login,signup,home,html,css,bootstrap,RWD,Responsive web Design">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Page icon Link -->
+        <link rel="icon" href="images/fff.png" />
+
+        <!-- Fontawesome Link -->
+        <link rel="stylesheet" href="css/all.min.css">
+
+        <!-- Bootstrap Link -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <!-- Page Style Link -->
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <Section id="rgisterPage" class="min-vh-100 d-flex justify-content-center align-items-center">
+            <div class="loginForm w-75 text-center bg-white rounded-3">
+                <h1 class="mt-5  fw-bolder">Create New <span class="text-primary">Facebook</span> Account</h1>
+                <div class="loginInputs py-3 mx-5 ">
+                    <input id="userName" type="text" class="form-control my-3 bg-transparent text-black shadow-none py-2" placeholder="Enter your full name">
+                    <label id="inValidateName" class="text-danger d-none">ex: Devid </label>
+
+                    <input id="userEmail" type="text" class="form-control my-3 bg-transparent text-black shadow-none py-2" placeholder="Enter your email">
+                    <label id="inValidateEmail" class="text-danger d-none">ex: devid935@hotmail.com </label>
+
+                    <input id="userPassword" type="password" class="form-control my-3 bg-transparent text-black shadow-none py-2" placeholder="Enter your password">
+
+                    <label id="successLabel" class="text-success d-none">success</label>
+                    <label id="emailExistsLabel" class="text-danger d-none">email already exists</label>
+                    <label id="requiredLabel" class="text-danger d-none">All inputs is required</label>
+            
+                    <button id="signUpBtn" class="form-control btn btn-primary fw-bolder fs-4 mb-3">Sign Up</button>
+                        
+
+                    <p class="text-black py-3 pb-2">Already have an account? <a id="signUpLink" class="text-primary text-decoration-none" href="index.html">SignIn</a></p>
+                </div>
+            </div>
+         </Section>
+
+        <!-- Bootstrap Link -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Page Main Script Link -->
+        <script src="js/registeration.js"></script>
+    </body>
+</html>

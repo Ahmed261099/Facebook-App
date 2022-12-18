@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Facebook - Login</title>
+        <meta name="author" content="Ahmed" />
+        <meta charset="UTF-8" />
+        <meta name="description" content="Facebook App">
+        <meta name="keywords" content="Facebook,login,signup,home,html,css,bootstrap,RWD,Responsive web Design">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Page icon Link -->
+        <link rel="icon" href="images/fff.png" />
+
+        <!-- Fontawesome Link -->
+        <link rel="stylesheet" href="css/all.min.css">
+
+        <!-- Bootstrap Link -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <!-- Page Style Link -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+     <Section id="loginPage" class="min-vh-100 d-flex align-items-center py-5 py-lg-0">
+        <div class="container my-md-auto">
+            <div class="row gy-5">
+                
+                <div class="col-lg-6">
+                        <div  class="w-75 mx-auto">
+                            <h1 class=" text-primary fw-bolder">Facebook</h1>
+                            <h3>Recent logins</h3>
+                            <h4 class="text-muted">Click your picture or add an account.</h4>
+                            <div class="container">
+                                <div class="row">
+                                        <div class="recentLoginItem d-flex justify-content-between ">
+                                            <div class="card w-50 me-4">
+                                                <img src="images/client-1.png" class="card-img-top w-100 " alt="...">
+                                                <div class="card-body">
+                                                  <p class="card-text text-center">Ahmed</p>
+                                                </div>
+                                              </div>
+                                            <div class="card w-50 position-relative new-Account">
+                                                <a  href="registration.html" class="text-center bg-light h-75 d-flex align-items-center"><i class="fas fa-plus-circle text-primary fw-bolder w-100"></i></a>
+                                               
+                                                  <a href="registration.html"  class="card-text text-center position-absolute fixed-bottom py-3 text-primary">Add Account</a>
+                                                
+                                              </div>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                      
+                </div>
+                <div class="col-lg-6">
+                        <div  class="loginForm w-75 text-center mx-auto bg-white rounded-3">
+                            <div class="loginInputs py-3 mx-5 ">
+                               <input id="loginEmail" type="text" class="form-control my-3 bg-transparent text-black shadow-none py-2" placeholder="Email address">
+                               <input id="loginPassword" type="password" class="form-control my-3 bg-transparent text-black shadow-none py-2" placeholder="Password">
+                            
+                               <label id="incorrectLabel" class="text-danger d-none">incorrect email or password</label>
+                               <label id="loginRequiredLabel" class="text-danger d-none">All inputs is required</label>
+                            
+                               <button  id="loginBtn"  class=" form-control btn btn-primary  fw-bolder fs-4 mb-3">Log in</button>
+                               <p class="text-black py-3 pb-2 ">Don't have an account? <a id="signUpLink" class="text-primary text-decoration-none" href="registration.html">Sign Up</a></p>
+                            </div>
+                          
+                            <hr class="text-balck mb-3 w-75 m-auto">
+                            <a href="#">Forget Password</a>
+                            <br>
+                            <a href="registration.html" class="btn btn-success my-3 p-2 px-3 fw-bolder" id="CreateNewAcc">Create New Account</a>
+                        </div>
+                        <h6 class="py-4 text-center"><a href="#" class="text-xxl-center fw-bolder text-black">Create a Page </a> for a celebrity, brand or business.</h6>
+                </div>
+            </div>
+              
+            </div>
+        </div>
+      
+     </Section>
+
+     <!-- Bootstrap Link -->
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <!-- Page Main Script Link -->
+     <script src="js/main.js"></script>
+    </body>
+</html>

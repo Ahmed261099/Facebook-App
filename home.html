@@ -1,0 +1,474 @@
+<html>
+
+<head>
+    <title>Facebook</title>
+    <meta name="author" content="Ahmed" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Facebook App">
+    <meta name="keywords" content="Facebook,login,signup,home,html,css,bootstrap,RWD,Responsive web Design">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page icon Link -->
+    <link rel="icon" href="images/fff.png" />
+
+    <!-- Fontawesome Link -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Page Style Link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>  
+
+<body >
+
+    <!-- Starting Navigation Bar -->
+
+    <nav class="navbar navbar-expand-lg bg-dark text-secondary fixed-top">
+        <div class="container-fluid d-flex ">
+            <a class="navbar-brand" href="#">
+                <img src="images/fff.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+            </a>
+          
+            <form class="d-flex " role="search">
+                <input class="form-control me-2 rounded-pill text-white shadow-none border-0" type="search" placeholder="Search" aria-label="Search">
+              </form>
+              <button class="navbar-toggler m-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-secondary fa-2x">
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse  w-25 " id="navbarNavDropdown">
+                <ul class="navbar-nav d-flex justify-content-around  w-50 m-auto text-center">
+                    <li class="nav-item px-3 rounded-3" >
+                        <a class="nav-link active text-secondary fw-bolder"  aria-current="page" href="#"><i class="fa-solid fa-house fa-2x"></i></a>  
+                    </li>
+                    <li class="nav-item px-3 rounded-3">
+                        <a class="nav-link active text-secondary fw-bolder" aria-current="page" href="#"><i class="fab fa-youtube fa-2x"></i></a>
+                    </li>
+                    <li class="nav-item px-3 rounded-3">
+                        <a class="nav-link active text-secondary fw-bolder" aria-current="page" href="#"><i class="fa-solid fa-store fa-2x"></i></a>
+                    </li>
+                    <li class="nav-item px-3 rounded-3">
+                        <a class="nav-link active text-secondary fw-bolder" aria-current="page" href="#"><i class="fa-solid fa-user-group fa-2x"></i></a>
+                    </li>
+                    <li class="nav-item px-3 rounded-3">
+                        <a class="nav-link active text-secondary fw-bolder" aria-current="page" href="#"><i class="fa-solid fa-gamepad fa-2x"></i></a>
+                    </li>
+                  
+                </ul>
+                <ul class="navbar-nav d-flex justify-content-around text-center nav-second-ul">
+                    <li class="nav-item dropdown  px-1 mx-1 rounded-circle">
+                        <a class="nav-link dropdown-toggle text-secondary fw-bolder" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-ellipsis-vertical fa-2x text-white"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">
+                                <a class="nav-link  btn btn-outline-primary text-white fw-bolder" id="logout" aria-current="page" href="index.html">Logout</a>
+                            </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item  px-1 mx-1 rounded-circle">
+                        <a class="nav-link active text-secondary fw-bolder" aria-current="page" href="#"><i class="fa-brands fa-facebook-messenger fa-2x text-white"></i></a>
+                    </li>
+                    <li class="nav-item  px-1 mx-1 rounded-circle">
+                        <a class="nav-link active text-secondary fw-bolder" aria-current="page" href="#"><i class="fa-solid fa-bell fa-2x text-white"></i></a>
+                    </li>
+                      
+                
+                </ul>
+            </div>
+
+            <a class="navbar-brand ps-2 pe-3" href="#">
+                <img src="images/client-1.png" alt="Logo" width="45" height="45" class="d-inline-block align-text-top rounded-circle ">
+            </a>
+            
+        </div>
+    </nav>
+    <!-- End Navigation Bar -->
+    
+
+    <!-- Starting Header Section -->
+    <section id="header" class="min-vh-100">
+        <div class="container py-5 h-75 w-75">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="cover py-5">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="profileImg rounded-circle overflow-hidden border-dark">
+                <img src="images/client-1.png" class="w-100 " alt="">
+            </div>
+            <div class="ProfileName py-4">
+                <h1 class="text-white fw-bolder"></h1>
+
+                <a href="#" class="text-white  text-muted"><h5 class="text-white fw-bolder ">Freinds
+                        <a class="navbar-brand" href="#">
+                            <img src="images/client-2.png" alt="Logo" width="45" height="45" class="d-inline-block align-text-top rounded-circle ">
+                            <img src="images/client-3.png" alt="Logo" width="45" height="45" class="d-inline-block align-text-top rounded-circle ">
+                            <img src="images/client-4.png" alt="Logo" width="45" height="45" class="d-inline-block align-text-top rounded-circle ">
+                         </a>
+                </h5></a>
+            </div>
+        </div>
+        <div class="headerButtons">
+            <a href="#" class="btn btn-primary text-white "><i class="fa-solid fa-plus-circle pe-2"></i>Add to story</a>
+            <a href="#" class="btn btn-secondary text-white "><i class="fa-solid fa-pen pe-2"></i>Edit profile</a>
+        </div>
+    </section>
+    <!-- End Header Section -->
+
+    <!-- Starting Menu section -->
+        <section id="Menu" >
+            <hr class="text-light mb-3 w-75 m-auto">
+            <div class="MenuItems w-75 mx-auto d-flex justify-content-between">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active text-primary border-0 border-bottom-4 border-primary" aria-current="page" href="#">Posts</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-secondary border-0" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-secondary border-0" href="#">Friends</a>
+                    </li>
+                  </ul>
+                  <a href="#" class="btn btn-secondary"><i class="fa-solid fa-ellipsis"></i></a>
+            </div>
+        </section>
+    <!-- End Menu section -->
+
+    <!-- Start Posts Section -->
+    <section id="Posts" class="mb-0 py-2">
+        <div class="container w-75 text-white mt-2">
+            <div class="row gx-3 gy-3">
+                <div class="col-lg-5">
+                    <div class="profile-Info p-2">
+                      <h3 class="fw-bolder">Intro</h3>
+                      <p class="text-center">Write Your Bio Here</p>
+                      <a href="#" class="btn btn-secondary w-100">Edit Bio</a>
+                      <ul class="Info mt-3 list-unstyled">
+                        <li>
+                            <h6><i class="fa-solid fa-briefcase pe-2 mb-2"></i>Work At Microsoft</h6>
+                            <h6><i class="fa-solid fa-briefcase pe-2 mb-2"></i>Work At ITI</h6>
+                            <h6><i class="fa-solid fa-briefcase pe-2 mb-2"></i>Work At Samsung</h6>
+                            <h6><i class="fa-solid fa-briefcase pe-2 mb-2"></i>Work At Cegediem</h6>
+                            <h6><i class="fa-solid fa-location-dot pe-2 mb-2"></i>From Sharm Elsheikh</h6>
+                            <h6><i class="fa-solid fa-house-chimney pe-2 mb-2"></i>Lives in Bani Suef</h6>
+                            <h6><i class="fa-solid fa-heart pe-2 mb-2"></i>Single</h6>
+                            <h6><i class="fa-solid fa-wifi pe-2 mb-2"></i>Followed by 4000 people</h6>
+                            <h6><i class="fa-brands fa-instagram pe-2 mb-2"></i>ahmed_roski</h6>
+                            <h6><i class="fa-brands fa-linkedin pe-2 mb-2"></i>
+                                www.linkedin.com/in/ahmed-sami-a-bast-601416173</h6>
+                            <h6><i class="fa-brands fa-twitter pe-2 mb-2"></i>A_Sami261099</h6>
+                        </li>
+                      </ul>
+                      <a href="#" class="btn btn-secondary w-100 mb-3">Edit details</a>
+                      <a href="#" class="btn btn-secondary w-100 mb-3">Add hobbies</a>
+                      <a href="#" class="btn btn-secondary w-100 mb-3">Add featured</a>
+                    </div>
+
+
+                    <div class="container profile-Photos mt-2 py-2">
+                        <div class="row gx-1 gy-1">
+                            <h3 class="fw-bolder w-50 d-inline">Photos</h3>
+                            <a href="#" class="btn btn-outline-secondary border-0 text-primary  w-50">See all photos</a> 
+                            <div class="col-4">
+                                <div class="Photos">
+                                    <img src="images/client-1.png" class="w-100" alt="">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="Photos">
+                                    <img src="images/client-2.png" class="w-100" alt="">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="Photos">
+                                    <img src="images/client-3.png" class="w-100" alt="">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="Photos">
+                                    <img src="images/client-4.png" class="w-100" alt="">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="Photos">
+                                    <img src="images/client-5.png" class="w-100" alt="">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="Photos">
+                                    <img src="images/client-6.png" class="w-100" alt="">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="Photos">
+                                    <img src="images/client-7.png" class="w-100" alt="">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="Photos">
+                                    <img src="images/client-8.png" class="w-100" alt="">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="Photos">
+                                    <img src="images/client-9.png" class="w-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container profile-Friends mt-2 py-2">
+                        <div class="row gx-2 gy-2">
+                            <h3 class="fw-bolder w-50 d-inline">Friends</h3>
+                            <a href="#" class="btn btn-outline-secondary border-0 text-primary  w-50">See all friends</a> 
+                            <a class="text-muted my-0">3000 Friends</a>
+                            <div class="col-4">
+                                <div class="Photos">
+                                    <img src="images/client-1.png" class="w-100 rounded-3" alt="">
+                                    <h6 class="pt-2">Ahmed Samy</h6>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="Photos">
+                                    <img src="images/client-2.png" class="w-100 rounded-3" alt="">
+                                    <h6 class="pt-2">Eslam Mohamed</h6>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="Photos">
+                                    <img src="images/client-3.png" class="w-100 rounded-3" alt="">
+                                    <h6 class="pt-2">Ahmed Ebrahiem</h6>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="Photos">
+                                    <img src="images/client-4.png" class="w-100 rounded-3" alt="">
+                                    <h6 class="pt-2">Moaaz</h6>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="Photos">
+                                    <img src="images/client-5.png" class="w-100 rounded-3" alt="">
+                                    <h6 class="pt-2">Rayen</h6>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="Photos">
+                                    <img src="images/client-6.png" class="w-100 rounded-3" alt="">
+                                    <h6 class="pt-2">Ahmed Bahnasy</h6>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="Photos">
+                                    <img src="images/client-7.png" class="w-100 rounded-3" alt="">
+                                    <h6 class="pt-2">Eslam Mohamed</h6>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="Photos">
+                                    <img src="images/client-8.png" class="w-100 rounded-3" alt="">
+                                    <h6 class="pt-2">Mahmoud Mohey</h6>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="Photos">
+                                    <img src="images/client-9.png" class="w-100 rounded-3" alt="">
+                                    <h6 class="pt-2">Omar</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+
+
+                <div class="col-lg-7 ">
+                    <div class="container">
+                        <div class="row gy-2">
+                            <div class="profile-Post-Cards p-2">
+                                <div class="container d-flex justify-content-between align-items-center">
+                                    <h3>Posts</h3>
+                                    <div class="filter-posts flex-nowrap">
+                                        <a href="#" class=" btn btn-secondary text-white"><i class="fa-solid fa-filter"></i> Filter</a>
+                                        <a href="#" class=" btn btn-secondary text-white"><i class="fa-solid fa-gear"></i> Manage Posts</a>
+                                    </div>
+                                </div>
+                                <hr class="text-light my-3 w-100 m-auto">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <a href="#" class="btn btn-primary text-white w-100"><i class="fa-solid fa-bars pe-2"></i>List View</a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#" class="btn btn-secondary text-white w-100"><i class="fa-solid fa-grip pe-2"></i>Grid View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container Post py-2">
+                                <div class="row p-2">
+                                    <div class="post-owner d-flex">
+                                        <img src="images/client-1.png" alt="Logo" width="45" height="45" class="d-inline-block align-text-top rounded-circle ">
+                                        <h6  class="ms-2 postOwnerName"></h6>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <img src="images/post-1.jpg" class="w-100" alt="">
+                                <hr class="text-light my-3 w-100 m-auto">
+                                <div class="row">
+                                    <div class="col-4 Post-Reacts">
+                                        <a href="#" class="btn btn-outline-secondary fw-bolder border-0 text-light w-100"><i class="fa-solid fa-heart"></i> Like</a>
+                                    </div>
+                                    <div class="col-4 Post-Reacts">
+                                        <a href="#" class="btn btn-outline-secondary fw-bolder border-0 text-light w-100"><i class="fa-regular fa-message"></i> Comment</a>
+                                    </div>
+                                    <div class="col-4 Post-Reacts">
+                                        <a href="#" class="btn btn-outline-secondary fw-bolder border-0 text-light w-100"><i class="fa-solid fa-share"></i> Share</a>
+                                    </div>
+                                </div>
+                                <hr class="text-light mb-3 w-100 m-auto">
+                                <div class="add-comment d-flex justify-content-between">
+                                    <img src="images/client-1.png" alt="Logo" width="45" height="45" class="d-inline-block align-text-top rounded-circle ">
+                                    <input type="text" class="form-control  me-2 rounded-pill text-white shadow-none border-0 " placeholder="Write a comment...">
+                                </div>
+                            </div>
+
+                            <div class="container Post py-2">
+                                <div class="row p-2">
+                                    <div class="post-owner d-flex">
+                                        <img src="images/client-1.png" alt="Logo" width="45" height="45" class="d-inline-block align-text-top rounded-circle ">
+                                        <h6  class="ms-2 postOwnerName"></h6>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <img src="images/post-2.jpg" class="w-100" alt="">
+                                <hr class="text-light my-3 w-100 m-auto">
+                                <div class="row">
+                                    <div class="col-4 Post-Reacts">
+                                        <a href="#" class="btn btn-outline-secondary fw-bolder border-0 text-light w-100"><i class="fa-solid fa-heart"></i> Like</a>
+                                    </div>
+                                    <div class="col-4 Post-Reacts">
+                                        <a href="#" class="btn btn-outline-secondary fw-bolder border-0 text-light w-100"><i class="fa-regular fa-message"></i> Comment</a>
+                                    </div>
+                                    <div class="col-4 Post-Reacts">
+                                        <a href="#" class="btn btn-outline-secondary fw-bolder border-0 text-light w-100"><i class="fa-solid fa-share"></i> Share</a>
+                                    </div>
+                                </div>
+                                <hr class="text-light mb-3 w-100 m-auto">
+                                <div class="add-comment d-flex justify-content-between">
+                                    <img src="images/client-1.png" alt="Logo" width="45" height="45" class="d-inline-block align-text-top rounded-circle ">
+                                    <input type="text" class="form-control  me-2 rounded-pill text-white shadow-none border-0 " placeholder="Write a comment...">
+                                </div>
+                            </div>
+                            <div class="container Post py-2">
+                                <div class="row p-2">
+                                    <div class="post-owner d-flex">
+                                        <img src="images/client-1.png" alt="Logo" width="45" height="45" class="d-inline-block align-text-top rounded-circle ">
+                                        <h6  class="ms-2 postOwnerName"></h6>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <img src="images/post-3.jpg" class="w-100" alt="">
+                                <hr class="text-light my-3 w-100 m-auto">
+                                <div class="row">
+                                    <div class="col-4 Post-Reacts">
+                                        <a href="#" class="btn btn-outline-secondary fw-bolder border-0 text-light w-100"><i class="fa-solid fa-heart"></i> Like</a>
+                                    </div>
+                                    <div class="col-4 Post-Reacts">
+                                        <a href="#" class="btn btn-outline-secondary fw-bolder border-0 text-light w-100"><i class="fa-regular fa-message"></i> Comment</a>
+                                    </div>
+                                    <div class="col-4 Post-Reacts">
+                                        <a href="#" class="btn btn-outline-secondary fw-bolder border-0 text-light w-100"><i class="fa-solid fa-share"></i> Share</a>
+                                    </div>
+                                </div>
+                                <hr class="text-light mb-3 w-100 m-auto">
+                                <div class="add-comment d-flex justify-content-between">
+                                    <img src="images/client-1.png" alt="Logo" width="45" height="45" class="d-inline-block align-text-top rounded-circle ">
+                                    <input type="text" class="form-control  me-2 rounded-pill text-white shadow-none border-0 " placeholder="Write a comment...">
+                                </div>
+                            </div>
+
+                            <div class="container Post py-2">
+                                <div class="row p-2">
+                                    <div class="post-owner d-flex">
+                                        <img src="images/client-1.png" alt="Logo" width="45" height="45" class="d-inline-block align-text-top rounded-circle ">
+                                        <h6  class="ms-2 postOwnerName"></h6>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <img src="images/post-1.jpg" class="w-100" alt="">
+                                <hr class="text-light my-3 w-100 m-auto">
+                                <div class="row">
+                                    <div class="col-4 Post-Reacts">
+                                        <a href="#" class="btn btn-outline-secondary fw-bolder border-0 text-light w-100"><i class="fa-solid fa-heart"></i> Like</a>
+                                    </div>
+                                    <div class="col-4 Post-Reacts">
+                                        <a href="#" class="btn btn-outline-secondary fw-bolder border-0 text-light w-100"><i class="fa-regular fa-message"></i> Comment</a>
+                                    </div>
+                                    <div class="col-4 Post-Reacts">
+                                        <a href="#" class="btn btn-outline-secondary fw-bolder border-0 text-light w-100"><i class="fa-solid fa-share"></i> Share</a>
+                                    </div>
+                                </div>
+                                <hr class="text-light mb-3 w-100 m-auto">
+                                <div class="add-comment d-flex justify-content-between">
+                                    <img src="images/client-1.png" alt="Logo" width="45" height="45" class="d-inline-block align-text-top rounded-circle ">
+                                    <input type="text" class="form-control  me-2 rounded-pill text-white shadow-none border-0 " placeholder="Write a comment...">
+                                </div>
+                            </div>
+
+                            <div class="container Post py-2">
+                                <div class="row p-2">
+                                    <div class="post-owner d-flex">
+                                        <img src="images/client-1.png" alt="Logo" width="45" height="45" class="d-inline-block align-text-top rounded-circle ">
+                                        <h6  class="ms-2 postOwnerName"></h6>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <img src="images/post-1.jpg" class="w-100" alt="">
+                                <hr class="text-light my-3 w-100 m-auto">
+                                <div class="row">
+                                    <div class="col-4 Post-Reacts">
+                                        <a href="#" class="btn btn-outline-secondary fw-bolder border-0 text-light w-100"><i class="fa-solid fa-heart"></i> Like</a>
+                                    </div>
+                                    <div class="col-4 Post-Reacts">
+                                        <a href="#" class="btn btn-outline-secondary fw-bolder border-0 text-light w-100"><i class="fa-regular fa-message"></i> Comment</a>
+                                    </div>
+                                    <div class="col-4 Post-Reacts">
+                                        <a href="#" class="btn btn-outline-secondary fw-bolder border-0 text-light w-100"><i class="fa-solid fa-share"></i> Share</a>
+                                    </div>
+                                </div>
+                                <hr class="text-light mb-3 w-100 m-auto">
+                                <div class="add-comment d-flex justify-content-between">
+                                    <img src="images/client-1.png" alt="Logo" width="45" height="45" class="d-inline-block align-text-top rounded-circle ">
+                                    <input type="text" class="form-control  me-2 rounded-pill text-white shadow-none border-0 " placeholder="Write a comment...">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                   
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- End Posts Section -->
+
+        <!-- Bootstrap Link -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Page Main Script Link -->
+        <script src="js/home.js"></script>
+</body>
+
+</html>

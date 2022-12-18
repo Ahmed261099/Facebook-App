@@ -1,0 +1,235 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body 
+ {
+    background: #24353f;
+    background-color: #f0f2f5;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/***** Signup and Login Pages *****/
+.loginForm
+{ 
+    box-shadow: -5px 2px 20px -9px rgb(0 0 0);
+}
+#signUpLink:hover
+{
+    text-decoration: underline ;
+}
+label
+{
+    font-size: 1.1rem;
+}
+a
+{
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.deco:hover
+{
+    text-decoration: underline;
+}
+
+.card
+{
+    border: 1px solid transparent;
+    border-radius: 10%; 
+    overflow: hidden;
+}
+.new-Account i
+{
+    font-size: 60px;
+}
+
+#CreateNewAcc
+{
+    background-color: #42b72a;
+}
+
+/***** End Signup and Login Pages *****/
+
+
+
+/***** Starting Navigation Bar *****/
+.navbar-nav
+{
+
+    flex-wrap: nowrap !important;
+}
+.navbar-nav ul
+{
+    flex-wrap: nowrap !important;
+
+}
+
+nav form input
+{
+    background-color:#3a3b3c !important;
+
+}
+nav form input:focus
+{
+    border: 1px solid rgb(81, 211, 255) !important;
+}
+
+.nav-item:hover
+{
+    background-color:#3a3b3c !important;
+}
+.nav-second-ul li
+{
+    background-color:#3a3b3c ;
+}
+.nav-second-ul .dropdown-menu, .dropdown-item
+{
+    background-color:white !important ;
+}
+
+@media (max-width:992px)
+{
+    .nav-second-ul li
+    {
+        background-color:transparent ;
+    }
+    nav .navbar-collapse .nav-second-ul li:hover
+    {
+        background-color: transparent !important ;
+    }
+    #logout
+    {
+        color: black !important;
+    }
+}
+    
+
+/***** End Navigation Bar *****/
+
+
+/***** Starting Header Section  *****/
+#header
+{
+    background-image: linear-gradient(#65676b,#3a3b3c);
+    position: relative;
+}
+#header .container
+{
+    background-image: url("../images/pricing.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.profileImg
+{
+    width: 200px;
+    height: 200px;
+    border: 5px solid ;
+    position: absolute;
+    top: 100%;
+    transform: translateX(10%);
+    transform: translateY(-20%);
+}
+.ProfileName
+{
+    position: absolute;
+    top: 100%;
+    transform: translateX(100%);
+}
+.headerButtons
+{
+    position: absolute;
+    left: 70%;
+    top: 90%;
+}
+
+@media (max-width:950px)
+{
+    #header .container
+    {
+        width: 100% !important;
+    }
+    .profileImg
+    {
+        width: 200px;
+        height: 200px;
+        border: 5px solid ;
+        position: absolute;
+        top: 100%;
+        transform: translateX(-50%);
+        transform: translateY(-50%);
+    }
+    .headerButtons
+    {
+        display: flex;
+        gap: 5px;
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        top: 94%;
+        justify-content: center;
+    }
+    .headerButtons a
+    {
+        width: 50%;
+    }
+  
+
+
+}
+/***** End Header Section  *****/
+
+
+/**** Starting Menu section ****/
+#Menu
+{
+    background-color: #3a3b3c ;
+}
+@media (max-width:950px)
+{
+    #Menu
+    {
+        padding-top: 15px;
+    }
+ 
+}
+/**** End Menu section ****/
+
+
+/**** Start Posts Section ****/
+#Posts
+{
+    background-color: #242526;
+}
+
+.profile-Info,.profile-Post-Cards,.profile-Photos,.profile-Friends,.Post
+{
+     background-color:  #3a3b3c ;
+     border-radius: 8px;
+}
+
+.add-comment input
+{
+    background-color:#565759 !important;
+    width: 90% !important;
+}
+@media (max-width:550px)
+{
+   .filter-posts 
+   {
+         width: min-content !important;
+         
+   }
+   .filter-posts a
+   {
+        margin-bottom: 5px;
+   }
+ 
+}
+
+/**** End Posts Section ****/
+
+
